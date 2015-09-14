@@ -22,8 +22,6 @@ object BitBasedVectorSpaceModel {
 
     val queryAsTerms = query.split(" ").map(Term).toList
 
-    val frequency = Frequency(vocabulary)
-
 
     // Represent query vector and document vector in the vector space.
     // vocabulary as the base.
